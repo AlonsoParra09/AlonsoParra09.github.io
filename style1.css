@@ -1,0 +1,127 @@
+@font-face {
+	font-family: "RogueHero";
+  
+	src: url("./fonts/roguehero.woff2") format("woff2");
+}
+.fuente{
+	font-family: "RogueHero";
+	
+}
+/*-webkit-text-stroke: 2px white; contorno de texto*/
+*{margin: 0; padding: 0;}
+body{
+	color: white;
+}
+header {
+	width: 100%;
+	overflow: hidden; 
+	background: black;
+	margin-bottom: 20px;
+
+}
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header .logo{
+	color: red;
+	line-height: 200px;
+	font-size: 50px;
+	float:left;
+	font-family: "roguehero";
+	-webkit-text-stroke: 1px white;
+
+}
+header nav{
+	float: right;
+	line-height: 200px;
+	
+
+}
+header nav a{
+	display: inline-block;
+	color:red;
+	text-decoration: none;
+	padding: 10px 20px;
+	-webkit-text-stroke: 0.05px white;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "roguehero"
+
+
+}
+header nav a:hover
+{
+	background: white;
+	border-radius: 50px;
+	transition:500ms ease;
+	webkit-transition:500ms ease;
+	-o-transition:500ms ease; 
+
+
+}
+.header2 {
+	position: fixed;
+	height: 100px;
+
+}
+.header2 .logo{
+	line-height: 100px;
+	font-size: 50px;
+
+}
+.header2 nav {
+	line-height: 100px;
+
+}
+
+	h1{
+		font-size: 30px;
+		font-size-adjust: center;
+		font-family: calibri;
+		text-align: center;
+		color: black;
+
+}
+p{
+	font-size: 16px;
+	text-align: center;
+	font-family: calibri;
+	text-align: justify;
+	color: black;
+
+}
+
+body
+{
+	background-color: #ffffff;
+	position: relative;
+}
+.first
+{
+	
+	padding-block-start: 150px;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 1200pt;
+  text-align: center;
+
+}
+.block {
+  width: 33%;
+  display: inline-block; 
+  font-size-adjust: top;
+  vertical-align: text-top;
+  font-size: 30x;
+  margin-bottom: 120pt;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: calibri;
+
+}​
